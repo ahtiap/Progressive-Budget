@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb://budget-tracker:sullivan25@ds061391.mlab.com:61391/heroku_3pqw264f",
+  "mongodb+srv://ahtiap:toutoumy1961@booksearch.fbvco.mongodb.net/Budget?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
